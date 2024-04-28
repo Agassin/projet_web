@@ -31,6 +31,7 @@
 	}
 	parallaxEffect();
 	
+   
 	
 //	$('.courses_area').imagesLoaded(function(){
 //        $('.courses_inner').isotope({ 
@@ -417,3 +418,6 @@
 	
 
 })(jQuery)
+
+
+

@@ -54,7 +54,7 @@
     /* ===== Parallax Effect===== */
 	
 	function parallaxEffect() {
-    	$('.bg-parallax').parallax();
+    	//$('.bg-parallax').parallax();
 	}
 	parallaxEffect();
     
