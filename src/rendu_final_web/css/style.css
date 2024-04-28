@@ -1621,5 +1621,9 @@ li:last-child {
   transform: translate(-50%, -50%);
 }
 
+h1 {
+  font-size:2rem;
+}
+
 /* End Additionnal global css
 ============================================================================================ */
