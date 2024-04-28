@@ -556,10 +556,15 @@ li:last-child {
   width: 100%;
   min-height: 360px;
   z-index: 1;
+}
+
+.banner_area .banner_inner .banner_background {
   background-image: url('../img/bruniquel.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: absolute;
+  filter: brightness(50%);
 }
 
 .banner_area .banner_inner .banner_content h2 {
@@ -1520,3 +1525,60 @@ li:last-child {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Preloader Area css
+============================================================================================ */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #e9ecef /* #212529 */
+}
+
+  #preloader:before {
+      content: "";
+      position: fixed;
+      top: calc(50% - 30px);
+      left: calc(50% - 30px);
+      border: 2px solid #4dc3ff;
+      border-top-color: #e9ecef;
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+      -webkit-animation: animate-preloader 1s linear infinite;
+      animation: animate-preloader 1s linear infinite
+  }
+
+/* End Preloader Area css
+============================================================================================ */
+
+
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Additionnal global css
+============================================================================================ */
+
+.maps {
+  border:1px solid #007BFF;
+  border-radius: 10px !important;
+  width: 100% !important;
+}
+
+.absolute_center {
+  position: absolute; 
+  z-index: 9999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* End Additionnal global css
+============================================================================================ */
