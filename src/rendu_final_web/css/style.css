@@ -1623,3 +1623,18 @@ li:last-child {
 
 /* End Additionnal global css
 ============================================================================================ */
+.res{
+  width: 50%;
+  text-align: center;
+  color: #006504;
+  margin: auto;
+  
+}
+
+.merci{
+  width: 50%;
+  text-align: center;
+  color: brown;
+  margin: auto;
+  
+}
