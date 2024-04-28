@@ -108,24 +108,27 @@
 					</ul>
 				</div>
 			</div>
-			<div class="order-form">
+			<div class="order-form" style="position: fixed; z-index: 9999; top: 50%; left: 75%; background-color: #f9f9f9; padding: 15px; border-radius: 15px; border: 1px solid #a19c9c">
 				<h2>Faites votre choix :</h2>
 				<form action="error404.html" method="post">
-					<label for="entree" class=""><strong>Entrée :</strong></label>
+					<!--<label for="entree" class=""><strong>Entrée :</strong></label>-->
 					<select name="entree" id="entree" class="form-control" style="color: green;">
-						<option value="entree1" >Salade de légumes printanière</option>
+						<option value="" disabled selected>Votre entrée</option>
+						<option value="entree1">Salade de légumes printanière</option>
 						<option value="entree2">Sélection de viandes de saison</option>
 					</select><br> 
 		
-					<label for="plat"><strong>Plat :</strong></label>
+					<!--<label for="plat"><strong>Plat :</strong></label>-->
 					<select name="plat" id="plat" class="form-control" style="color: brown;">
+						<option value="" disabled selected>Votre plat</option>
 						<option value="plat1">Tagliatelles à la bolognaise du terroir</option>
 						<option value="plat2">Pizza estivale aux saveurs méditerranéennes</option>
 						<option value="plat3">Mijoté de poissons nobles et légumes du marché</option>
 					</select><br>
 		
-					<label for="dessert"><strong>Dessert :</strong></label>
+					<!--<label for="dessert"><strong>Dessert :</strong></label>-->
 					<select name="dessert" id="dessert" class="form-control" style="color: purple;">
+						<option value="" disabled selected>Votre dessert</option>
 						<option value="dessert1">Tiramisu revisité aux café</option>
 						<option value="dessert2">Assiette gourmande de fruits frais exotiques</option>
 					</select><br>
