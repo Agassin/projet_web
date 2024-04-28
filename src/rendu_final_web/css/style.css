@@ -8,6 +8,10 @@
   padding: 0px;
 }
 
+.alinéa {
+  text-indent: 20px; /* Définir l'indentation du texte */
+}
+
 a {
   text-decoration: none;
   transition: all 0.3s ease-in-out;
@@ -154,7 +158,33 @@ button:focus {
   margin-bottom: 0;
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* Bordure en pointillés pour indiquer qu'il y a une aide */
+}
 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
 
 /* Main Title Area css
 ============================================================================================ */
@@ -425,8 +455,8 @@ button:focus {
 /*----------------------------------------------------*/
 /* Menu map Area
 ============================================================================================ */
-.menu {
-  max-width: 500px;
+.menu{
+  max-width: 30%;
   margin: 50px auto;
   padding: 20px;
   background-color: #f9f9f9;
@@ -450,8 +480,12 @@ ul {
 
 li {
   padding: 10px 0;
+  text-align: center;
 }
-
+.category img {
+  display: block;
+  margin: 0 auto;
+}
 li:last-child {
   border-bottom: none;
 }
