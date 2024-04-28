@@ -31,6 +31,10 @@ body {
   color: black;
 }
 
+#centre{
+  margin: auto;
+}
+
 h1,
 h2,
 h3,
@@ -203,7 +207,7 @@ button:focus {
 .header_area .navbar .nav .nav-item .nav-link {
   font: 500 12px/120px/12px/80px "Roboto", sans-serif;
   text-transform: uppercase;
-  color: #fff;
+  color: #fb5502;
   padding: 0px;
   display: inline-block;
 }
@@ -214,7 +218,7 @@ button:focus {
 
 .header_area .navbar .nav .nav-item:hover .nav-link,
 .header_area .navbar .nav .nav-item.active .nav-link {
-  color: #fff;
+  color: #fb5502;
 }
 
 .header_area .navbar .nav .nav-item:hover .nav-link {
@@ -577,7 +581,7 @@ li:last-child {
 
 .banner_area .banner_inner .banner_content .page_link a {
   font-size: 14px;
-  color: #f1f1f1;
+  color: #fb5502;
   font-family: "Roboto", sans-serif;
   margin-right: 32px;
   position: relative;
@@ -1392,7 +1396,7 @@ li:last-child {
 }
 
 .f_title h3 {
-  color: #f1f1f1;
+  color: #fb5502;
   font-size: 18px;
   font-weight: bold;
   font-family: "Heebo", sans-serif;
